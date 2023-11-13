@@ -59,4 +59,7 @@
     {
         font-size: 13px;
     }
+    .projects {
+        height: 100vh;
+    }
 }
