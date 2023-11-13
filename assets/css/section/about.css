@@ -6,7 +6,7 @@
     background-image: linear-gradient(#212529, #21252960), url(../../images/background/about.jpg);
     */
 
-    background-image: linear-gradient(60deg, #000000ad 0%, rgba(72, 85, 99, 0.562) 100%), url(../../images/background/2.jpg);
+    background-image: linear-gradient(60deg, #000000ad 0%, rgba(72, 85, 99, 0.562) 100%), url(../../images/background/5.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -110,10 +110,6 @@
         text-decoration: wavy;
         color: gray;
     }
-    #tip-mobile
-    {
-        display: none;
-    }
 }
 
 @media(max-width: 1204px)
@@ -157,7 +153,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    p
+    .content > p
     {
         text-transform: lowercase;
         margin: 0;
@@ -166,11 +162,5 @@
         left: 50%;
         transform: translate(-50%);
         text-align: center;
-    }
-    #tip-mobile
-    {
-        position: absolute;
-        top: 80%;
-        font-size: 10px;
     }
 }
