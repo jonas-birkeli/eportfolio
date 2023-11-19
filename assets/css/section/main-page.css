@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    background-position-y: 0px;
 }
 .main-page-text
 {
